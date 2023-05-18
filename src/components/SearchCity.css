@@ -1,0 +1,25 @@
+.city_search {
+    text-align: center;
+}
+
+.city_search input {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 480px;
+    border: rgb(196, 196, 196) 1px solid;
+    opacity: 80%;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:768px) {
+    .city_search input {
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        width: 200px;
+        border: rgb(196, 196, 196) 1px solid;
+        opacity: 80%;
+        border-radius: 10px;
+    }
+}

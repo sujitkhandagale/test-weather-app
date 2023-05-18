@@ -1,0 +1,32 @@
+.weather_temp  {
+    font-weight: 900;
+    text-align: center;
+    /* padding-top: 150px; */
+}
+
+.weather_temp span {
+    color: rgb(247, 234, 60);
+    font-size: 80px;
+}
+
+.weather_temp .date {
+    position: fixed;
+    top: 4%;
+    left: 2%;
+    font-size: 16px;
+}
+
+.weather_temp .temp_cloud {
+    padding-left: 20px;
+    width: 80px;
+}
+
+
+@media only screen and (max-width:768px) {
+    .weather_temp .date {
+        position: fixed;
+        top: 4%;
+        left: 6%;
+        font-size: 16px;
+    } 
+}
